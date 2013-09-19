@@ -1,3 +1,10 @@
+# ignore my changes to settings.ini; keep it stock. I don't use a stock config (or why would I be tracking changes?)
+settings.ini
+
+# blah blah blah, none of the shit below is relevant. Github created it on its own.
+
+
+
 #################
 ## Eclipse
 #################
