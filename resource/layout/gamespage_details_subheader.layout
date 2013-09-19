@@ -1,0 +1,50 @@
+"resource/layout/gamespage_details_subheader.layout"
+{
+	controls
+	{
+		launchbutton { controlname="Button" labeltext="#Steam_LaunchGame" style="detailsLaunchButton" tabposition=2 command="RunGameAction" }
+		statuslabel { controlname="Label" style="StatusText" labeltext="" }
+	}
+	
+	colors
+	{
+		GameDetailsSubHeader.HorizontalSpacing=10
+		GameDetailsSubHeader.VerticalMargin=0
+	}
+	
+	styles
+	{
+		CDetailsGameSubHeaderPanel
+		{
+			render_bg
+			{
+				0="fill( x0 + 3, y0 + 3, x1 - 3, y1 - 3, BlackTr )"
+				1="dashedrect( x0 + 3, y0 + 3, x1 - 3, y1 - 3, Black )"
+			}
+		}
+		
+		// DetailsButton {} [settings.ini]
+		
+		// DetailsLaunchButton {} [settings.ini]
+		
+		// DetailsInstallButton {} [settings.ini]
+		
+		// DetailsBuyButton {} [settings.ini]
+	}
+	
+	layout
+	{
+		// Y offset here should match the vertical padding value above in the colors section
+		region { name="header" y=0 x=0 width=max height=max }
+		
+		place { control=launchbutton,statuslabel
+			region=header
+			dir=right
+			align=left-center
+			margin-left=10
+			margin-right=10
+			spacing=10
+			height=24
+		}
+	}
+}

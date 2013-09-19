@@ -1,0 +1,138 @@
+"resource/layout/downloadsummarypanel.layout"
+{
+    controls
+    {
+        "downloadsummarypanel"
+        {
+            style=CDownloadSummaryPanel
+            tall="124"
+        }
+        
+        "header"
+        {
+            "ControlName"       "Label"
+            "labelText"         "#steam_downloads_networkusage"
+            style=bigtextheader
+        }
+		
+        "download_rate"
+        {
+            "ControlName"       "Label"
+            "labelText"         "#steam_downloads_downloadrate"
+            style=bigtextlabel       
+        }
+		
+        "download_rate_value"
+        {
+            "ControlName"       "Label"
+            "labelText"         "%CurrentDLRate%"
+            style=bigtext       
+        }
+		
+        "peak_download_rate"
+        {
+            "ControlName"       "Label"
+            "labelText"         "#steam_downloads_peakdownloadrate"
+            style="bigtextlabel"
+        }
+		
+        "peak_download_rate_value"
+        {
+            "ControlName"       "Label"
+            "labelText"         "%PeakDLRate%"
+            style="bigtext"
+        }
+        
+        "total_downloaded"
+        {
+            "ControlName"       "Label"
+            "labelText"         "#steam_downloads_totaldownloaded"
+            style="bigtextlabel"
+        }
+		
+        "total_downloaded_value"
+        {
+            "ControlName"       "Label"
+            "labelText"         "%TotalDownloaded%"
+            style="bigtext"
+        }
+        
+        "pauseresumeallbutton"
+        {
+            "ControlName"       "Button"
+            style=PauseButton
+        }
+    }
+    
+    styles
+    {
+        CDownloadSummaryPanel
+        {
+			inset="0 0 0 0"
+        }
+		
+        LabelDwnld
+        {
+            font-size="14"
+			font-family=basefont
+            font-weight=700
+        }
+		
+        container
+        {
+            bgcolor="none"
+        }
+		
+        bigtext
+        {
+			textcolor="Text"
+			font-size=18
+			font-family=basefont
+			font-style="regular"
+        }
+		
+        bigtextlabel 
+        {
+			textcolor="Label"
+			font-size=16
+			font-family=basefont
+			font-style="regular"
+        }
+        
+        bigtextHeader 
+        {
+			textcolor="TextTitle"
+			font-size=18
+			font-family=basefont
+			font-style="uppercase"
+        }
+		
+        bigTextNumbers 
+        {
+            textcolor="text"
+			font-size="18"
+			font-family=basefont
+            font-style="uppercase"
+        }
+		
+		// ResumeButton {} [settings.ini]
+		
+		// PauseButton {} [settings.ini]
+    }
+    
+    layout
+    {
+        region { name=head dir=down x=20 y=17 height=124 width=max margin-right=0 }
+        
+        place { control="header" region=head dir=down x=0 y=0 }
+        place { control="pauseresumeallbutton" region=head align=right x=490 margin-right=16 margin-top=30 }
+
+        region { name=row1 x=0 y=19 width=max height=22 region=head }
+		region { name=row2 x=0 y=41 width=max height=22 region=head }
+		region { name=row3 x=0 y=63 width=max height=22 region=head }
+
+        place { region=row1 control="download_rate_value,download_rate" spacing=4 align=bottom }
+        place { region=row2 control="peak_download_rate_value,peak_download_rate" spacing=4 align=bottom }
+        place { region=row3 control="total_downloaded_value,total_downloaded" spacing=4 align=bottom }
+    }
+}
