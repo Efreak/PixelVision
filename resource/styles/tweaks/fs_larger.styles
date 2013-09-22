@@ -40,6 +40,21 @@
 			font-size=15
 		}
 		
+		headertext-red
+		{
+			font-size=15
+		}
+
+		headertext-green
+		{
+			font-size=15
+		}
+
+		headertext-blue
+		{
+			font-size=15
+		}
+		
 		headertext2 // GameHub
 		{
 			font-size=15

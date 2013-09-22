@@ -17,11 +17,6 @@
 		gametitleheader { controlname="CDetailsGameTitleHeaderPanel" zpos="2" }
 		gamesubheader { controlname="CDetailsGameSubHeaderPanel" zpos="2" }
 		
-		// Right column links
-		playstatslabel { controlname="Label" labeltext="#Steam_Stats" style="rightcolumnheadertext" } 
-		playtimelink { controlname="URLLabel" labeltext="#steam_details_lastplayedheader" style="rightcolumnlink" } 
-		lastplayedlink { controlname="URLLabel" labeltext="#steam_details_totalplaytimeheader_minutes" style="rightcolumnlink" } 
-		
 		linkslabel { controlname="Label" labeltext="#Steam_Links" style="rightcolumnheadertext" } 
 		sendguestpasslink { controlname="URLLabel" labeltext="#steam_send_guestpass" style="rightcolumnlink" tabposition=7 command="SendGuestPass" }
 		achievementslink { controlname="URLLabel" labeltext="#Steam_Achievements" style="rightcolumnlink" }
@@ -310,7 +305,7 @@
 		// Buttons and links on the right
 		place	
 		{ 
-			control=playstatslabel,playtimelink,lastplayedlink,linkslabel,sendguestpasslink,gamehublink,achievementslink,forumlink,ogglink,manuallink,newslink,storelink,dlclink,cdkeylink,guidelink,guideslink,supportlink,recommendlink,tagslabel,*taglink,edittagslink
+			control=linkslabel,sendguestpasslink,gamehublink,achievementslink,forumlink,ogglink,manuallink,newslink,storelink,dlclink,cdkeylink,guidelink,guideslink,supportlink,recommendlink,tagslabel,*taglink,edittagslink
 			region=rightcolumn 
 			dir=down 
 			width=125
