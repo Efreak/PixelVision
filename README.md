@@ -1,25 +1,28 @@
-#Pixel Vision Skin for Steam - Readme
-
-* created by Pulseh
-
-* Uploaded to github by Efreak.
-
-v2013-0912 - Full Installation (Client Beta)
+#Pixel Vision Skin for Steam
 
 ## Contents:
 
-* [Github (Efreak's Changes)](#github)
-* [Installing](#installing)
-* [Steam Community Group](#steam-community-group)
-* [Help & Documentation](#help--documentation)
-* [Extras & Tweaks](#extras--tweaks)
-* [To Disable/Uninstall](#to-disableuninstall)
-* [Common Problems & Solutions](#common-problems--solutions)
+* [Pixel Vision Skin for Steam](#pixel-vision-skin-for-steam)
+ * [Contents](#contents)
+ * [Github (Efreak's Changes)](#github)
+ * [Installing](#installing)
+ * [Steam Community Group](#steam-community-group)
+ * [Help & Documentation](#help--documentation)
+ * [Extras & Tweaks](#extras--tweaks)
+ * [To Disable/Uninstall](#to-disableuninstall)
+ * [Common Problems & Solutions](#common-problems--solutions)
 * [Contact Info](#contact-info)
 * [Credits & Thanks](#credits--thanks)
 
+---
 
-### Github
+### Pixel Vision Skin for Steam - readme
+
+* created by Pulseh
+* Uploaded to github by Efreak.
+* v2013-0912 - Full Installation (Client Beta)
+
+#### Github
 
 My name is Efreak, and I'm *not* the creator of PixelVision. I simply put a copy of it on github, modified the readme somewhat to support markdown (the original file is still here as *readme.txt*), and added some tweaks. The primary reason I'm using git at all is to simplify keeping my skins folder together across several different computers, and for ease of updating (this is a live, working copy of the skin on my computer). I will try to push any changes Pulseh makes to this git repo, so you can feel free to pull changes from it directly to update your skin.
 
@@ -42,12 +45,12 @@ I'm also happy to include your own tweaks here if you're too lazy to keep up to 
 
 5. Restart, enjoy, and don't forget to take a look at the new Tweaks!
 
-### [Steam Community Group](http://steamcommunity.com/groups/pixelvisionskin)
+#### [Steam Community Group](http://steamcommunity.com/groups/pixelvisionskin)
 
-### [Help & Documentation](http://steamcommunity.com/groups/pixelvisionskin/discussions/1/)
+#### [Help & Documentation](http://steamcommunity.com/groups/pixelvisionskin/discussions/1/)
 
 
-### Extras & Tweaks
+#### Extras & Tweaks
 
 * In version 1.9.4 I added an alternative set of overlay files for those who are having trouble with overlapping elements in the new overlay at resolutions lower than 1366 by 768.
   * Said files can be found in `<Steam>\skins\PixelVision\resource\layout\Low Resolution Overlay\` along with a readme.
@@ -61,13 +64,13 @@ Enjoy!
 
 
 
-### To Disable/Uninstall
+#### To Disable/Uninstall
 
 Simply go back to the Interface tab in Steam's Settings and select a different skin.
 
 
 
-### Common Problems & Solutions
+#### Common Problems & Solutions
 
 * Why aren't the icons at the top of Steam properly aligned?
   * The base skin is meant for the English version of Steam, if you're using a different language, you'll need to edit the file *locale.ini* found in `<Steam>\skins\PixelVision\` and follow the instructions inside.
@@ -100,7 +103,7 @@ Simply go back to the Interface tab in Steam's Settings and select a different s
   * Feel free to contact me.
 
 
-### Contact Info
+## Contact Info
 
 * [deviantART](http://pulseh.deviantart.com)
 * [GameBanana](http://www.gamebanana.com/guis/26048)
@@ -108,8 +111,7 @@ Simply go back to the Interface tab in Steam's Settings and select a different s
 
 
 
-Credits & Thanks
-----------------
+## Credits & Thanks
 
 * X.nano, creator of the [Apparition skin](http://forums.steampowered.com/forums/showthread.php?t=1421090), for several tips and helpful advice.
 * Back/Forward Buttons (by [fediaFedia](http://fediafedia.deviantart.com))
