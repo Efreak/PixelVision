@@ -16,12 +16,14 @@
 		settingslink		{ controlname="URLlabel" style="settingslink" }
 		
 		// right-mid column
-		downloadtotallabel	{ controlname="Label"	labelText="#steam_downloads_gamesize_update" style="label2" group="HideOnCompletion" }
-		downloadtotalfield	{ controlname="Label"	labelText="%download_totals%" style="label" style="label" group="HideOnCompletion" }
+		downloadtotallabel	{ controlname="Label"	labelText="#steam_downloads_gamesize_update" style="label2" }
+		downloadtotalfield	{ controlname="Label"	labelText="%download_totals%" style="label" style="label" }
 		starttimelabel	{ controlname="Label"	labelText="#steam_downloads_initiated" style=Label2 group="ShowWhileDownloading" }
 		starttimefield	{ controlname="Label"	labelText="%time_started%" style=Label group="ShowWhileDownloading" }
 		timeremaininglabel	{ controlname="Label"	labelText="#steam_downloads_timeremaining" style="label2" group="ShowWhileDownloading" }
 		timeremainingfield	{ controlname="Label"	labelText="%time_remaining%"  style="label" group="ShowWhileDownloading" }
+		timecompletedlabel	{ controlname="Label"	labelText="#steam_downloads_timecompleted" style="label2" group="ShowWhenComplete" }
+		timecompletedfield	{ controlname="Label"	labelText="%time_completed%"  style="label" group="ShowWhenComplete" }
 		
 		// right column
 		updatetypelabel	{ controlname="Label"	labelText="#steam_downloads_suspended" style=ModuleHeading2 }
@@ -354,6 +356,7 @@
 		place { region="column2" control="downloadprogressbar" x=17 y=47 height=16 width=200 }
 		place { region="column2" control="downloadtotallabel,downloadtotalfield" x=23 align=top margin-top=47  spacing=6  }
 		place { region="column2" control="starttimelabel,starttimefield"         x=23 align=top margin-top=71  spacing=6  }
+		place { region="column2" control="timecompletedlabel,timecompletedfield" x=23 align=top margin-top=71  spacing=6  }
 		place { region="column2" control="timeremaininglabel,timeremainingfield" x=23 align=top margin-top=93  spacing=6  }
 		place { region="column2" control="settingslink,newslink"                 x=23 align=top margin-top=115 spacing=13 }
 		

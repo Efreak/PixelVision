@@ -2,7 +2,7 @@ Pixel Vision Skin for Steam - Readme
 ===========================
          ·created by Pulseh
 
-                 v2013-0912 - Full Installation (Client Beta)
+                 v2013-1030 - Full Installation (Client Beta)
 
 
 

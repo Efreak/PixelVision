@@ -2,7 +2,20 @@ Pixel Vision Skin for Steam - ChangeLog
 ===========================
          •created by Pulseh
 
-                 v2013-1026 (Client Beta)
+                 v2013-1030 (Client Beta)
+
+
+
+-- v2013-1030 CLIENT BETA  (30th of October 2013)
+=========================
+
+  • Fixed results counter display on the HTML Find Bar.
+
+  • Fixed time completed display on the Downloads page.
+
+  • Fixed Friends List hover effect in non-avatar view.
+
+  • First attempt at correcting CPU usage bug affecting some users in Library.
 
 
 

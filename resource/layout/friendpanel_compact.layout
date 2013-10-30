@@ -16,7 +16,7 @@
 	
 	styles
 	{
-		CFriendPanel:select  //only used in non-avatar view for friends
+		CFriendPanel:selected  //only used in non-avatar view for friends
 		{
 			render_bg
 			{
