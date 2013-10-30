@@ -2,7 +2,14 @@ Pixel Vision Skin for Steam - ChangeLog
 ===========================
          •created by Pulseh
 
-                 v2013-1024 (Client Beta)
+                 v2013-1026 (Client Beta)
+
+
+
+-- v2013-1026 CLIENT BETA  (26th of October 2013)
+=========================
+
+  • More Download page fixes from the latest Client Beta update.
 
 
 
