@@ -300,7 +300,7 @@
 		
 		// Header text
 		place 	{ control=gametitleheader region=headertext dir=down height=46 }
-		place	{ control=gamesubheader start=gametitleheader region=headertext dir=down y=-1 height=42 }
+		place	{ control=gamesubheader start=gametitleheader region=headertext dir=down y=-1 }
 		
 		// Buttons and links on the right
 		place	

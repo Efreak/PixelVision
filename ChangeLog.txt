@@ -2,7 +2,16 @@ Pixel Vision Skin for Steam - ChangeLog
 ===========================
          •created by Pulseh
 
-                 v2013-1015 (Client Beta)
+                 v2013-1021 (Client Beta)
+
+
+
+-- v2013-1021 CLIENT BETA  (21st of October 2013)
+=========================
+
+  • Family Sharing Beta fixes.
+
+  • Notification fixes.
 
 
 

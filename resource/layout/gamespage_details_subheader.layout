@@ -9,13 +9,14 @@
 	colors
 	{
 		GameDetailsSubHeader.HorizontalSpacing=10
-		GameDetailsSubHeader.VerticalMargin=0
+		GameDetailsSubHeader.VerticalMargin=7
 	}
 	
 	styles
 	{
 		CDetailsGameSubHeaderPanel
 		{
+			minimum-height="42"
 			render_bg
 			{
 				0="fill( x0 + 2, y0 + 2, x1 - 2, y1 - 2, BlackTr )"
@@ -37,7 +38,7 @@
 		// Y offset here should match the vertical padding value above in the colors section
 		region { name="header" y=0 x=0 width=max height=max }
 		
-		place { control=launchbutton region=header align=left-center margin-left=10 }
+		place { control=launchbutton region=header margin-top=9 margin-left=10 }
 		place { control=subheaderlabels region=header align=middle y=-3 start=launchbutton margin-left=10 }
 	}
 }
