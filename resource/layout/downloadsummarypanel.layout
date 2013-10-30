@@ -63,6 +63,22 @@
             style=PauseButton
         }
 		
+		"throttling_label"
+		{
+			"ControlName"	    "Label"
+			"labelText"	    "#steam_downloads_throttling"
+			style="throttleLabel"
+			group = "ShowWhenThrottled"
+	    }
+		
+		"throttling_value"
+		{
+			"ControlName"	    "Label"
+			"labelText"	    "%throttle_value%"
+			style="throttleValue"
+			group = "ShowWhenThrottled"
+		}
+		
 		graphpanel { controlname="GraphPanel" style="infoGraphic" group="HideOnCompletion" zpos="-1" }
     }
     
@@ -71,7 +87,33 @@
         CDownloadSummaryPanel
         {
 			inset="0 0 0 0"
+			render
+			{
+				// Outer Border
+				3="fill( x0    , y0 + 1, x0 + 1, y1, ScreenB )"	// Left
+				4="fill( x1 - 1, y0 + 1, x1    , y1, ScreenB )"	// Right
+				
+				// Inner Border
+				7="fill( x0 + 1, y0 + 2, x0 + 2, y1, Black )"	// Left
+				8="fill( x1 - 2, y0 + 2, x1 - 1, y1, Black )"	// Right
+			}
         }
+		
+		throttleLabel
+		{
+			bgcolor	   none
+			font-size   "15"
+			textcolor   "label"
+			padding-top	"0"
+	    }
+		
+		throttleValue
+		{
+			bgcolor	   none
+			font-size   "15"
+			textcolor   "text"
+			padding-top	"0"
+		}
 		
         LabelDwnld
         {
@@ -137,8 +179,8 @@
         region { name=head dir=down x=20 y=17 height=124 width=max margin-right=0 }
         
         place { control="header" region=head dir=down x=0 y=0 }
-		place { control="GraphPanel" x=11 width="max" height="107" margin-top=10 }
-        place { control="pauseresumeallbutton" region=head align=right x=490 margin-right=16 margin-top=30 }
+		place { control="GraphPanel" x=11 width="max" height="107" margin-top=10 margin-right=11 }
+        place { control="pauseresumeallbutton" region=head align=right x=490 margin-right=32 margin-top=30 }
 
         region { name=row1 x=0 y=19 width=max height=22 region=head }
 		region { name=row2 x=0 y=41 width=max height=22 region=head }
@@ -147,5 +189,10 @@
         place { region=row1 control="download_rate_value,download_rate" spacing=4 align=bottom }
         place { region=row2 control="peak_download_rate_value,peak_download_rate" spacing=4 align=bottom }
         place { region=row3 control="total_downloaded_value,total_downloaded" spacing=4 align=bottom }
+		
+		region { name=head dir=down x=10 y=10 height=124 width=max margin-right=0 }
+		region { name=middle_column x=200 y=0 width=max region=head }
+		
+		place { region=middle_column control="throttling_label,throttling_value" spacing=4 align=top }
     }
 }
