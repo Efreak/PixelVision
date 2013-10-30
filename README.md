@@ -20,7 +20,7 @@
 
 * created by Pulseh
 * Uploaded to github by Efreak.
-* v2013-0912 - Full Installation (Client Beta)
+* v2013-1030 - (Client Beta)
 
 #### Github
 
@@ -28,7 +28,7 @@ My name is Efreak, and I'm *not* the creator of PixelVision. I simply put a copy
 
 If you have problems with it, the *first* thing you need to do before contacting Pulseh is to see if the problems occur in his version of the skin; you can do this by making sure my extra tweak is disabled. Regarding the changes to the skin that I made: The only files I personally changed were `settings.ini` and `resource\styles\tweaks\fs_efreak_tweaks.styles`; the rest of the skin is stock.
 
-If you'd like to give me a fix for some problem with my tweaks, feel free to submit a pull request. Include an explanation of what the changes are.
+If you'd like to give me a fix for some problem with my tweaks, feel free to submit a pull request. Include an explanation of what the changes are, and please make sure that the fixes are for a problem with my tweaks--test without my tweaks enabled before you submit to me.
 
 I'm also happy to include your own tweaks here if you're too lazy to keep up to date. Add a tweak definition to *settings.ini* like I did, leave it disabled, and commit it. Now use the command `git update-index --assume-unchanged settings.ini` like I did to keep your working *settings.ini* changes from appearing in the git repo.
 
