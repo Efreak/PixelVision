@@ -62,6 +62,8 @@
             "ControlName"       "Button"
             style=PauseButton
         }
+		
+		graphpanel { controlname="GraphPanel" style="infoGraphic" group="HideOnCompletion" zpos="-1" }
     }
     
     styles
@@ -118,6 +120,16 @@
 		// ResumeButton {} [settings.ini]
 		
 		// PauseButton {} [settings.ini]
+		
+		infoGraphic
+		{
+			bgcolor		"none"
+			textcolor	"Focus"
+			inset="0 3 3 3"
+			
+		   	render_bg {}
+			render {}
+		}
     }
     
     layout
@@ -125,6 +137,7 @@
         region { name=head dir=down x=20 y=17 height=124 width=max margin-right=0 }
         
         place { control="header" region=head dir=down x=0 y=0 }
+		place { control="GraphPanel" x=11 width="max" height="107" margin-top=10 }
         place { control="pauseresumeallbutton" region=head align=right x=490 margin-right=16 margin-top=30 }
 
         region { name=row1 x=0 y=19 width=max height=22 region=head }

@@ -2,23 +2,21 @@ Pixel Vision Skin for Steam - ChangeLog
 ===========================
          •created by Pulseh
 
-                 v2013-0921 (Client Beta)
+                 v2013-1015 (Client Beta)
 
 
 
--- v2013-0921 CLIENT BETA  (21st of September 2013)
+-- v2013-1015 CLIENT BETA  (15th of October 2013)
 =========================
 
-  • Moved playtime stats next to launch button as per the latest Client Beta update.
+  • Implemented Download page changes from the latest Steam Client beta.
 
 
 
--- v2013-0912 CLIENT BETA  (12th of September 2013)
-=========================
+-- v2013-1009  (9th of October 2013)
+=============
 
-  • Simpler date-based version numbering format.
-
-  • Fixed the positioning of the new STATS items in the Library's Details view.
+  • Changed playtime stat labels to lowercase.
 
   • Added a new fix/tweak in settings.ini for those with truncated game headers (FEZ and others).
 
@@ -27,6 +25,30 @@ Pixel Vision Skin for Steam - ChangeLog
   • Moved the throbber in the game launch dialog to avoid collision in certain cases.
 
   • Skinned the 'Go Online' dialog (offline mode).
+
+
+
+   -- v2013-0921 CLIENT BETA  (21st of September 2013)
+   =========================
+
+     • Moved playtime stats next to launch button as per the latest Client Beta update.
+
+
+
+   -- v2013-0912 CLIENT BETA  (12th of September 2013)
+   =========================
+
+     • Simpler date-based version numbering format.
+
+     • Fixed the positioning of the new STATS items in the Library's Details view.
+
+     • Added a new fix/tweak in settings.ini for those with truncated game headers (FEZ and others).
+
+     • Friends list should now be navigable by keyboard using tab and arrow keys.
+
+     • Moved the throbber in the game launch dialog to avoid collision in certain cases.
+
+     • Skinned the 'Go Online' dialog (offline mode).
 
 
 
