@@ -20,7 +20,7 @@
 
 * created by Pulseh
 * Uploaded to github by Efreak.
-* v2013-1030 - (Client Beta)
+* v2013-1101 - Full Installation
 
 #### Github
 

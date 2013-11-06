@@ -265,11 +265,7 @@
 		}
 		
 		DetailsLaunchButton:Hover
-		{   
-			render
-			{
-				0="image( x0 + 47, y0 + 3, x1, y1, graphics/play_dl )"
-			}
+		{
 			render_bg
 			{
 				// Background

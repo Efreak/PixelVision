@@ -2,50 +2,67 @@ Pixel Vision Skin for Steam - ChangeLog
 ===========================
          •created by Pulseh
 
-                 v2013-1030 (Client Beta)
+                 v2013-1101
 
 
 
--- v2013-1030 CLIENT BETA  (30th of October 2013)
+-- v2013-1101 CLIENT BETA  (1st of November 2013)
 =========================
-
-  • Fixed results counter display on the HTML Find Bar.
-
-  • Fixed time completed display on the Downloads page.
-
-  • Fixed Friends List hover effect in non-avatar view.
-
-  • First attempt at correcting CPU usage bug affecting some users in Library.
-
-
-
--- v2013-1026 CLIENT BETA  (26th of October 2013)
-=========================
-
-  • More Download page fixes from the latest Client Beta update.
-
-
-
--- v2013-1024 CLIENT BETA  (24th of October 2013)
-=========================
-
-  • Addressed Download page changes from the latest Client Beta update.
-
-
-
--- v2013-1021 CLIENT BETA  (21st of October 2013)
-=========================
-
-  • Family Sharing Beta fixes.
 
   • Notification fixes.
 
+  • Downloads page fixes.
+
+  • Family Sharing fixes.
+
+  • Fixed results counter display on the HTML Find Bar.
+
+  • Added several tweaks to control positioning of notification popups.
+
+  • Added hover & down states to the client's back/forward buttons.
 
 
--- v2013-1015 CLIENT BETA  (15th of October 2013)
-=========================
 
-  • Implemented Download page changes from the latest Steam Client beta.
+   -- v2013-1030 CLIENT BETA  (30th of October 2013)
+   =========================
+
+     • Fixed results counter display on the HTML Find Bar.
+
+     • Fixed time completed display on the Downloads page.
+
+     • Fixed Friends List hover effect in non-avatar view.
+
+     • First attempt at correcting CPU usage bug affecting some users in Library.
+
+
+
+   -- v2013-1026 CLIENT BETA  (26th of October 2013)
+   =========================
+
+     • More Download page fixes from the latest Client Beta update.
+
+
+
+   -- v2013-1024 CLIENT BETA  (24th of October 2013)
+   =========================
+
+     • Addressed Download page changes from the latest Client Beta update.
+
+
+
+   -- v2013-1021 CLIENT BETA  (21st of October 2013)
+   =========================
+
+     • Family Sharing Beta fixes.
+
+     • Notification fixes.
+
+
+
+   -- v2013-1015 CLIENT BETA  (15th of October 2013)
+   =========================
+
+     • Implemented Download page changes from the latest Steam Client beta.
 
 
 

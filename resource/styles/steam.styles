@@ -269,8 +269,8 @@ steam.styles
 		FrameSystemButton.Icon        ""
 		FrameSystemButton.DisabledIcon    ""
 		
-		Notifications.PanelPosition     "BottomRight"   // Can be "BottomRight", "BottomLeft", "TopRight", "TopLeft"
-		Notifications.PanelPosition     "TopRight" [$OSX]  // the dock is on the bottom for OSX, so instead pop top right like other apps do
+		//Notifications.PanelPosition     "BottomRight"		// --> settings.ini
+		//Notifications.PanelPosition     "TopRight" [$OSX]	// --> settings.ini
 		Notifications.SlideDirection    "Vertical"    // Can be "Vertical", "Horizontal", "None" and controls slide effect
 		Notifications.FadeInTime      "0.45"    // Controls the time it takes to slide/fade into view
 		Notifications.FadeOutTime     "0.45"    // Controls the time it takes to slide/fade out of view
