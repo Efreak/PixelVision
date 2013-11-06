@@ -2,12 +2,23 @@ Pixel Vision Skin for Steam - ChangeLog
 ===========================
          •created by Pulseh
 
-                 v2013-1101
+                 v2013-1106 (Client Beta)
 
 
 
--- v2013-1101 CLIENT BETA  (1st of November 2013)
+-- v2013-1106 CLIENT BETA  (6th of November 2013)
 =========================
+
+  • More Download page fixes.
+
+  • Fixed CPU issues in Library (hopefully permanently).
+
+  • Notification tweaks should now carry over to the ingame overlay whenever possible.
+
+
+
+-- v2013-1101  (1st of November 2013)
+=============
 
   • Notification fixes.
 

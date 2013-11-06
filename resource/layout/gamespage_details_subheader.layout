@@ -16,7 +16,6 @@
 	{
 		CDetailsGameSubHeaderPanel
 		{
-			minimum-height="42"
 			render_bg
 			{
 				0="fill( x0 + 2, y0 + 2, x1 - 2, y1 - 2, BlackTr )"
