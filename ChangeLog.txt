@@ -2,16 +2,27 @@ Pixel Vision Skin for Steam - ChangeLog
 ===========================
          •created by Pulseh
 
-                 v2013-1214 (Client Beta)
+                 v2014-0108
 
 
 
--- v2013-1214 CLIENT BETA  (14th of December 2013)
-=========================
+-- v2014-0108  (8th of January 2014)
+=============
 
-  • Implemented several fixes related to the recent Family Options beta.
+  • Several fixes related to the recent Family Options beta.
 
-  • Removed the maximum width limit from the news link on the Downloads page.
+  • Download page fixes.
+
+  • Minor bug fixes.
+
+
+
+   -- v2013-1214 CLIENT BETA  (14th of December 2013)
+   =========================
+
+     • Implemented several fixes related to the recent Family Options beta.
+
+     • Removed the maximum width limit from the news link on the Downloads page.
 
 
 

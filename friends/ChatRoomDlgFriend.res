@@ -136,6 +136,7 @@
 		EmoticonMenuItemStyle
 		{
 			font-size=22
+			padding-left=-2
 			bgcolor=none
 		}
 		
