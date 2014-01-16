@@ -339,7 +339,7 @@
 	layout
 	{
 		region { name="column1" x=0 width=max }
-		region { name="column2" x=210 width=290 }
+		region { name="column2" x=210 width=max }
 		region { name="column3" x=497 width=max }
 		region { name="column4" x=700 width=max overflow=allow-horizontal }
 		
