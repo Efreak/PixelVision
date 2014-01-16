@@ -2,18 +2,29 @@ Pixel Vision Skin for Steam - ChangeLog
 ===========================
          •created by Pulseh
 
-                 v2013-1106 (Client Beta)
+                 v2013-1201
 
 
 
--- v2013-1106 CLIENT BETA  (6th of November 2013)
-=========================
+-- v2013-1201  (1st of December 2013)
+=============
 
-  • More Download page fixes.
+  • Family Sharing related information should now display beneath Library playtime stats.
 
-  • Fixed CPU issues in Library (hopefully permanently).
+  • Fix for CPU issues in Library.
 
-  • Notification tweaks should now carry over to the ingame overlay whenever possible.
+  • Minor bug fixes.
+
+
+
+   -- v2013-1106 CLIENT BETA  (6th of November 2013)
+   =========================
+
+     • More Download page fixes.
+
+     • Fixed CPU issues in Library (hopefully permanently).
+
+     • Notification tweaks should now carry over to the ingame overlay whenever possible.
 
 
 
