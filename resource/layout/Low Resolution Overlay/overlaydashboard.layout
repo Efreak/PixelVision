@@ -174,10 +174,10 @@
 		place { control="TopFadePanel" align=top width=max height=600 }
 		place { control="BottomFadePanel" align=bottom width=max height=130 }
 		place { control="Clock,ClockSuffix" region=mid align=top-center margin-top=-2 }
-		place { control="CloseButton" region=topbar align=right margin-right=22 width=28 height=28 y=12 }
+		place { control="CloseButton" region=topbar margin-left=23 width=28 height=28 y=12 }
 		place { control="HotkeyLabel,HotkeyExplain" region=topbar align=right margin-right=57 dir=down y=11 spacing=-1 }
 		place { control="SessionText,TwoWeeksText,ForeverText" dir=down region=overlay align=right margin-right=20 spacing=7 y=74 }
-		place { controls="gamename" region=topbar width=350 margin-left=23 }
+		place { controls="gamename" region=topbar align=right width=350 margin-right=22 }
 		place { control="PowerMeterDim" region=powermeter align=right }
 		place { control="TaskbarPanel" region=right align=bottom height=186 width=max }
 	}

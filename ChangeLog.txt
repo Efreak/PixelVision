@@ -2,7 +2,20 @@ Pixel Vision Skin for Steam - ChangeLog
 ===========================
          •created by Pulseh
 
-                 v2014-0108
+                 v2014-0205 (Client Beta)
+
+
+
+-- v2014-0205 CLIENT BETA  (5th of February 2014)
+=========================
+
+  • Preliminary In-Home Streaming beta support.
+
+  • Added locale.ini support for Ukrainian users.
+
+  • Game Title moved to the right of the Overlay in the 'Low Resolution Overlay' files.
+
+  • Added +3 & +4 font size tweaks.
 
 
 

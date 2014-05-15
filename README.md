@@ -20,18 +20,13 @@
 
 * created by Pulseh
 * Uploaded to github by Efreak.
-* v2014-0108
+* v2014-0205 (Client Beta)
 
 #### Github
 
-My name is Efreak, and I'm *not* the creator of PixelVision. I simply put a copy of it on github, modified the readme somewhat to support markdown (the original file is still here as *readme.txt*), and added some tweaks. The primary reason I'm using git at all is to simplify keeping my skins folder together across several different computers, and for ease of updating (this is a live, working copy of the skin on my computer). I will try to push any changes Pulseh makes to this git repo, so you can feel free to pull changes from it directly to update your skin.
+My name is Efreak, and I'm *not* the creator of PixelVision. I simply put a copy of it on github, modified the readme somewhat to support markdown (the original file is still here as *readme.txt*), and ~~added some tweaks~~ (tweaks have been removed). The primary reason I'm using git at all is to simplify keeping my skins folder together across several different computers, and for ease of updating (this is a live, working copy of the skin on my computer). I will try to push any changes Pulseh makes to this git repo, so you can feel free to pull changes from it directly to update your skin.
 
-If you have problems with it, the *first* thing you need to do before contacting Pulseh is to see if the problems occur in his version of the skin; you can do this by making sure my extra tweak is disabled. Regarding the changes to the skin that I made: The only files I personally changed were `settings.ini` and `resource\styles\tweaks\fs_efreak_tweaks.styles`; the rest of the skin is stock.
-
-If you'd like to give me a fix for some problem with my tweaks, feel free to submit a pull request. Include an explanation of what the changes are, and please make sure that the fixes are for a problem with my tweaks--test without my tweaks enabled before you submit to me.
-
-I'm also happy to include your own tweaks here if you're too lazy to keep up to date. Add a tweak definition to *settings.ini* like I did, leave it disabled, and commit it. Now use the command `git update-index --assume-unchanged settings.ini` like I did to keep your working *settings.ini* changes from appearing in the git repo.
-
+If you have problems with it, the *first* thing you need to do before contacting Pulseh is to see if your copy of the skin is up to date. If it's not up to date, Update it! Update it from the official sources, too--I only update the repository when I notice that something isn't working right after a steam update, or when I happen to notice that there's a new version out (if you notice the skin is out of date and it's breaking something, feel free to submit an issue or a pull request, and I'll deal with it ASAP).
 
 #### Installing
 
