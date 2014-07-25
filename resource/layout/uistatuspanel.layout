@@ -32,6 +32,6 @@
 	 	region { name="statusRegion" width=max height=44 align=bottom margin=6 margin-bottom=8 } 
 		
 		place { control=StatusProgressbar region="ProgressRegion" width=320 height=2 margin-top=4 align="top-center" }
-		place { control="StatusDownloading, StatusPaused, StatusComplete"  align="right" margin-top=15 margin-right=10 }
+		place { control="StatusDownloading, StatusPaused, StatusComplete"  align="right" spacing=3 margin-top=15 margin-right=10 }
 	}
 }
