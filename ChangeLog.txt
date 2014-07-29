@@ -2,7 +2,16 @@ Pixel Vision Skin for Steam - ChangeLog
 ===========================
          •created by Pulseh
 
-                 v2014-0629
+                 v2014-0726 (Client Beta)
+
+
+
+-- v2014-0726 CLIENT BETA   (26th of July 2014)
+=========================
+
+  • Steam Music Beta support.
+
+  • More fixes regarding the IMEntry bar for Asian character input.
 
 
 

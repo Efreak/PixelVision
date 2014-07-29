@@ -155,7 +155,7 @@
 		
 		ActionButtonStyle
 		{
-			inset="71 0 0 0" //23+48
+			inset="71 0 0 0"
 			font-size=16
 			font-weight=400
 			textcolor="Text"
