@@ -102,8 +102,9 @@
 			
 			render
 			{
-				1="image( x1 - 159, y1 - 141, x1, y1, graphics/icon_ol_browser )"
-				2="image( x1 - 159, y1 - 188 , x1, y1, graphics/icon_ol_settings )"
+				0="image( x1 - 159, y1 - 235, x1, y1, graphics/icon_ol_music )"
+				1="image( x1 - 159, y1 - 188, x1, y1, graphics/icon_ol_browser )"
+				2="image( x1 - 159, y1 - 141, x1, y1, graphics/icon_ol_settings )"
 			}
 		}
 		
@@ -179,6 +180,6 @@
 		place { control="SessionText,TwoWeeksText,ForeverText" dir=down region=overlay align=right margin-right=20 spacing=7 y=74 }
 		place { controls="gamename" region=topbar margin-left=23 }
 		place { control="PowerMeterDim" region=powermeter align=right }
-		place { control="TaskbarPanel" region=right align=bottom height=186 width=max }
+		place { control="TaskbarPanel" region=right align=bottom height=233 width=max } // height=186
 	}
 }

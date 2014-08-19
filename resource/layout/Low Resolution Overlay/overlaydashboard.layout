@@ -102,8 +102,9 @@
 			
 			render
 			{
-				1="image( x1 - 159, y1 - 141, x1, y1, graphics/icon_ol_browser )"
-				2="image( x1 - 159, y1 - 188 , x1, y1, graphics/icon_ol_settings )"
+				0="image( x1 - 159, y1 - 235, x1, y1, graphics/icon_ol_music )"
+				1="image( x1 - 159, y1 - 188, x1, y1, graphics/icon_ol_browser )"
+				2="image( x1 - 159, y1 - 141, x1, y1, graphics/icon_ol_settings )"
 			}
 		}
 		

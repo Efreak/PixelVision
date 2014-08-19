@@ -2,7 +2,16 @@ Pixel Vision Skin for Steam - ChangeLog
 ===========================
          •created by Pulseh
 
-                 v2014-0726 (Client Beta)
+                 v2014-0808 (Client Beta)
+
+
+
+-- v2014-0808 CLIENT BETA   (8th of August 2014)
+=========================
+
+  • Updated the position of the 'Music' button in the Overlay.
+
+  • Repositioned the new 'Hide this game [...]' entry in the Category management dialog.
 
 
 
