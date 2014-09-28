@@ -130,6 +130,36 @@ steam.styles
 		DarkImageBorder="47 48 43 255"
 		DarkImageOverlay="0 0 0 80"
 		
+		inbox_active "158 194 29 255"
+		inbox_active2 "155 199 9 255"
+		inbox_active4 "122 145 71 255"
+		inbox_active5 "85 102 47 255"	
+		
+		inbox_inactive "38 38 37 255"
+		inbox_inactive2 "142 194 12 255"	
+		inbox_inactive4 "122 145 71 255"
+		inbox_inactive5 "74 102 29"
+		
+		parental_lock_active1 "138 175 6 255"
+		parental_lock_active2 "49 49 49 255"	
+		parental_lock_active4 "122 145 71 255"
+		parental_lock_active5 "85 102 47 255"	
+		green5 "131 162 15 255"
+		green6 "106 131 12 255"
+		green7 "58 70 13 255"
+		green8 "38 48 2 255"
+		
+		launch0 "119 215 250 255"
+		launch1 "83 172 204 255"
+		launch2 "54 125 153 255"
+		
+		parental_lock_inactive1 "154 49 48 255"
+		parental_lock_inactive2 "189 79 79 255"	
+		parental_lock_inactive3 "215 90 90 255"	
+		parental_lock_inactive4 "146 72 71 255"
+		parental_lock_inactive5 "103 48 47 255"	
+		red6="38 1 1 255"
+		
 		////////////////////////////////////////////////////////////////////////////
 		////////////////////////////// Custom Colours //////////////////////////////
 		
@@ -333,14 +363,18 @@ steam.styles
 
 		// Friends List colors
 		Friends.InGameColor       "122 183 51 255"
+		Friends.InGameHoverColor  "182 235 76 255"
 		Friends.OnlineColor       "52 139 183 255"
+		Friends.OnlineHoverColor	"104 203 242 255"
 		Friends.OfflineColor      "Label"
+		Friends.OfflineHoverColor "185 185 185 255"
 		Friends.PanelDefault      "Label"
 		Friends.PanelOver       "Text"
 		Friends.PanelSelected     "ClientBG"
 		Friends.SectionHeader     "Label"
 		Friends.NoAvatarOver      "Text"
 		Friends.IgnoredColor      "Highlight3"
+		Friends.ListHeaderFadeOut	"54 54 54 0"
 	  
 		ChatDialog.URLColor       "text"
 		ChatOwnTextColor        "Label2"
@@ -352,6 +386,8 @@ steam.styles
 		AchievementPopup.DescriptionColor "180 180 180 255"
 		
 		GiftOnlyInfo.ImagePanelColor  "GrayBG"
+		
+		dd_texture_bottom "16 16 16 255"
 	}
   
 	styles
@@ -3643,14 +3679,29 @@ steam.styles
 			textcolor="Friends.OfflineColor"
 		}
 		
+		friends_offline:hover
+		{
+			textcolor="Friends.OfflineHoverColor"
+		}
+		
 		friends_online
 		{
 			textcolor="Friends.OnlineColor"
 		}
 		
+		friends_online:hover
+		{
+			textcolor="Friends.OnlineHoverColor"
+		}
+		
 		friends_ingame
 		{
 			textcolor="Friends.InGameColor"
+		}
+		
+		friends_ingame:hover
+		{
+			textcolor="Friends.InGameHoverColor"
 		}
 		
 		friends_ignored

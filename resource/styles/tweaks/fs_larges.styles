@@ -115,6 +115,84 @@
 			font-size=18
 		}
 		
+		// -- Music Pages
+		// ==============
+		EmptyDatabaseText
+		{
+			font-size="18"
+		}
+		
+		CrawlingText
+		{
+			font-size="18"
+		}
+		
+		"MusicPage_Details_Content ListPanel"
+		{
+			font-size=18
+		}
+		
+		"MusicPage_Details_Content ListPanelColumnHeader" [!$OSX]
+		{
+			font-size=17
+		}
+		
+		"MusicPage_Details_Content ListPanelColumnHeader" [$OSX]
+		{
+			font-size=16
+		}
+		
+		PositionLabelStyle
+		{
+			font-size=17
+		}
+		
+		TrackLabelStyle
+		{
+			font-size=18
+		}
+		
+		TracksInfoLabelStyle
+		{
+			font-size=18
+		}
+		
+		TrackStyle
+		{
+			font-size=18
+		}
+		
+		AdditionalActionButtonStyle
+		{
+			font-size=17
+			font-size=16 [$OSX]
+		}
+		
+		ActionButtonStyle
+		{
+			font-size=19
+		}
+		
+		MusicListPanelInterior
+		{
+			font-size=18
+    	}
+		
+		StatusStyle
+		{
+			font-size=17
+		}
+		
+		StatusStyleDim
+		{
+			font-size=17
+		}
+		
+		InfoLabelStyle
+		{
+			font-size=17
+		}
+		
 		// -- News Updates Dialog
 		// ======================
 		"CProductMarketingDialog Button"

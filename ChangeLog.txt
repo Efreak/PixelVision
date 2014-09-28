@@ -2,25 +2,54 @@ Pixel Vision Skin for Steam - ChangeLog
 ===========================
          •created by Pulseh
 
-                 v2014-0808 (Client Beta)
+                 v2014-0925
 
 
 
--- v2014-0808 CLIENT BETA   (8th of August 2014)
-=========================
+-- v2014-0925   (25th of September 2014)
+=============
 
-  • Updated the position of the 'Music' button in the Overlay.
+  • Support for the new Steam Music features.
 
-  • Repositioned the new 'Hide this game [...]' entry in the Category management dialog.
+  • Fixed a bug causing the Big Picture button to appear out of place.
+
+  • Minor bug fixes (see Client Beta logs below).
 
 
 
--- v2014-0726 CLIENT BETA   (26th of July 2014)
-=========================
+   -- v2014-0923 CLIENT BETA   (23rd of September 2014)
+   =========================
 
-  • Steam Music Beta support.
+     • Repositioned the BigPicture button after the last Steam Client update.
 
-  • More fixes regarding the IMEntry bar for Asian character input.
+     • Music pages text should now scale with any settings.ini font size options.
+
+
+
+   -- v2014-0904 CLIENT BETA   (4th of September 2014)
+   =========================
+
+     • Fixes for the recent Music Beta updates.
+
+     • Minor bug fixes.
+
+
+
+   -- v2014-0808 CLIENT BETA   (8th of August 2014)
+   =========================
+
+     • Updated the position of the 'Music' button in the Overlay.
+
+     • Repositioned the new 'Hide this game [...]' entry in the Category management dialog.
+
+
+
+   -- v2014-0726 CLIENT BETA   (26th of July 2014)
+   =========================
+
+     • Steam Music Beta support.
+
+     • More fixes regarding the IMEntry bar for Asian character input.
 
 
 

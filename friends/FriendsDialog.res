@@ -141,7 +141,7 @@
 	}
 	
 	styles
-	{
+	{		
 		FrameMinimizeButton
 		{
 			inset="0 0 0 0"
@@ -342,7 +342,7 @@
 		place [!$OSX]  { control="frame_minimize,frame_close" align=right margin-top=6 margin-right=3 spacing=-8 }
 		
 		place { control="FriendPanelSelf,FriendsDialogSheet" align=left margin-left=7 margin-top=-1 margin-right=7 margin-bottom=51 y=26 width=max height=max dir=down spacing=2 }
-		place { control="FriendPanelSelf" align=left margin-top=-1 margin-right=14 margin-left=6 y=26 }
+		place { control="FriendPanelSelf" align=left margin-top=-1 margin-right=14 margin-left=6 y=26 width=max }
 		place { control="friends_search_icon" align=bottom margin-left=7 margin-bottom=27 }
 		place { control="friends_search" align=bottom margin-left=28 margin-right=7 margin-bottom=25 width=max }
 		place { control="addFriendsButton" align=bottom margin-left=7 margin-right=19 margin-bottom=0 height=24 }

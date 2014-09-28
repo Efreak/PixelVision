@@ -4,6 +4,7 @@
 	{
 		AlbumTitleLabel { controlname="Label" style="AlbumTitleStyle" }
 		ArtistLabel { controlname="Label" style="ArtistStyle" }
+		TracksInfoLabel { controlname="Label" style="TracksInfoStyle" }
 		CoverImage { controlname="ImagePanel" style="CoverStyle" scaling=fit}
 		
 		PlayTracksButton
@@ -12,14 +13,6 @@
 			labeltext="#Music_Album_Details_PlayTracks"
 			style="ActionButtonStyle"
 			command="AlbumPlayTracksAction"
-		}
-		
-		PlayTracksNextButton
-		{
-			controlname="Button"
-			labelText="#Music_Album_Details_PlayTracksNext"
-			style="AdditionalActionButtonStyle"
-			command="AlbumPlayTracksNextAction"
 		}
 		
 		AddTracksToQueueButton
@@ -44,14 +37,6 @@
 			labeltext="#Music_Album_Details_Play"
 			style="ActionButtonStyle"
 			command="AlbumPlayAction"
-		}
-		
-		PlayAlbumNextButton
-		{
-			controlname="Button"
-			labelText="#Music_Album_Details_PlayNext"
-			style="AdditionalActionButtonStyle"
-			command="AlbumPlayNextAction"
 		}
 		
 		AddAlbumToQueueButton
@@ -155,32 +140,39 @@
 		
 		ActionButtonStyle
 		{
-			inset="71 0 0 0"
+			inset="23 1 0 0"
+			font-family=basefont
 			font-size=16
 			font-weight=400
-			textcolor="Text"
+			textcolor="white"
 			font-style=uppercase
 			bgcolor=none
-			render
-			{
-				1="image( x0 + 50, y0 + 10, x1, y1, graphics/mPlay )"
-			}
 			render_bg
 			{
-				0="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, BlackTR )"
+				// background fill
+				0="gradient( x0, y0, x1, y1 + 1, launch1, launch2 )"
+			}
+			render
+			{
+				1="image( x0 + 6, y0 + 15, x1, y1, graphics/icon_play )"
 			}
 		}
-			
+		
 		ActionButtonStyle:hover
 		{
-			textcolor="highlight2r"
-			render
-			{
-				0="image( x0 + 50, y0 + 10, x1, y1, graphics/mPlay_over )"
-			}
 			render_bg
 			{
-				0="fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, BlackTR2 )"
+				// background fill
+				0="gradient( x0, y0, x1, y1 + 1, launch0, launch2  )"
+			}
+		}
+		
+		ActionButtonStyle:active
+		{
+			render_bg
+			{
+				// background fill
+				0="gradient( x0, y0, x1, y1 + 1, focus, launch2 )"
 			}
 		}
 	}
@@ -195,10 +187,10 @@
 		place { control="CoverImage" align=top width=200 height=200 }
 		
 		place { control=AlbumTitleLabel,ArtistLabel,leftcolumn region=headerregion  dir=down }
-		place { control=CoverImage,PlayTracksButton region=leftcolumn  dir=down start=ArtistLabel spacing=10 margin-left=1}
-		place { control=PlayTracksButton region=leftcolumn dir=down start=CoverImage width=200 height=40 margin-top=10 }
-		place { control=PlayAlbumButton region=leftcolumn dir=down start=PlayTracksButton width=200 height=40 }
-		place { control=PlayTracksNextButton,AddTracksToQueueButton,PlayAlbumNextButton,AddAlbumToQueueButton,ShowAlbumButton,ShowAlbumInSystemButton region=leftcolumn	dir=down start=PlayAlbumButton }
-		place { region=trackcolumn control=*MusicPageDetailsTrack dir=down start=ArtistLabel x=230 }
+		place { control=CoverImage,TracksInfoLabel,PlayTracksButton region=leftcolumn  dir=down start=ArtistLabel spacing=10 margin-left=1}
+		place { control=PlayTracksButton region=leftcolumn dir=down start=CoverImage width=200 height=40 margin-top=30 }
+		place { control=PlayAlbumButton region=leftcolumn dir=down start=PlayTracksButton width=200 height=44 }
+		place { control=AddTracksToQueueButton,AddTracksToPlaylistButton,AddAlbumToQueueButton,AddAlbumToPlaylistButton,ShowAlbumButton,ShowAlbumInSystemButton region=leftcolumn	dir=down start=PlayAlbumButton }
+		place { region=trackcolumn control=*MusicPageDetailsTrack dir=down start=ArtistLabel x=230 width=max }
 	}
 }

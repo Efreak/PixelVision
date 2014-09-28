@@ -18,6 +18,14 @@
 		TrackList { controlname=ListPanel style="MusicListPanelInterior" }
 		NoTracksLabel { controlname=Label style="NoTracksLabelStyle" labeltext="" zpos="-1" }
 		InfoLabel { controlname=Label style="InfoLabelStyle" labeltext="1 OF 10"  zpos="-1" textalignment=center }
+		
+		frame_title
+		{
+			ControlName=Label
+			style="ClientTitle"
+			"textAlignment"   "west"
+			"textAlignment"   "center" [$OSX]
+		}
 	}
 	
 	colors
@@ -42,9 +50,9 @@
 		MusicListPanelInterior
 		{
 			inset="3 -1 0 0"
-			font-size=15
+			//font-size=15
 			textcolor="text2"
-			bgcolor="none"
+			bgcolor="PropertySheetBG"
 			render_bg {}
 			render
 			{
@@ -231,7 +239,7 @@
 		{
 			font-family=basefont
 			textcolor="LabelFocus"
-			font-size=14
+			//font-size=14
 			render_bg {}
 		}
 		
@@ -239,7 +247,7 @@
 		{
 			font-family=basefont
 			textcolor="LabelDisabled"
-			font-size=14
+			//font-size=14
 			render_bg {}
 		}
 		
@@ -247,7 +255,7 @@
 		{
 			font-family=basefont
 			textcolor="LabelDisabled"
-			font-size=14
+			//font-size=14
 			render_bg {}
 		}
 		

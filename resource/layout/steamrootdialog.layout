@@ -2,16 +2,16 @@
 {
 	controls
 	{
-		"ImageLogo"
+		"fullscreen"
 		{
-			"ControlName" 	"Label"
-			style="ClientLogo"
-			zpos=-5
+			"ControlName"		"Button"
+			style="FullscreenButton"
+			command="fullscreen"
 		}
 		
 		"New"
 		{
-			"ControlName" 	"URLLabel"
+			"ControlName"		"URLLabel"
 			style="new_label"
 			"URLText"		"http://store.steampowered.com/uiupdate"
 			zpos=-2
@@ -83,14 +83,6 @@
 			style="AccountURLStyle"
 		}
 		
-		account_balance_seperator
-		{
-			"ControlName"	"Label"
-			"fieldName"		"account_balance_seperator"
-			"labelText"		"|"
-			style="online_friends"
-		}
-		
 		account_balance
 		{
 			"ControlName"	"URLLabel"
@@ -98,6 +90,14 @@
 			"labelText"		""
 			"URLText"		"steam://url/StoreAccount/"
 			style="URLLabelSimple"
+		}
+		
+		account_balance_seperator
+		{
+			"ControlName"	"Label"
+			"fieldName"		"account_balance_seperator"
+			"labelText"		"|"
+			style="online_friends"
 		}
 		
 		universe_label
@@ -553,6 +553,22 @@
 			render_bg {}
 		}
 		
+		FullscreenButton [!$OSX]
+		{
+			padding-left=0
+			padding-top=0 
+			padding-right=0
+			padding-bottom=0
+		}
+
+		FullscreenButton [$OSX]
+		{
+			padding-left=0
+			padding-top=3
+			padding-right=0
+			padding-bottom=0
+		}
+		
 		AccountURLStyle
 		{
 			textcolor=labelfocus
@@ -597,6 +613,8 @@
 		
 		place { control="account_balance" y=35 align=right end-right="account_URL" margin-right=10 }
 		place { control="account_balance_seperator" align=right margin-right=20 margin-top=30 }
+		
+		place { control="fullscreen" tooltiptext="#tooltip_view_list" align=right y=78 height=23 margin-right=9 width=109 }
 		
 		place { control="InboxButton" height=12 y=52 margin-right=51 align=right }
 		place { control="ParentalLockButton" align=right end-right="account_balance" margin-top=35 margin-right=10 height=26 }
