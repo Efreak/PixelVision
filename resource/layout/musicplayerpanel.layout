@@ -105,6 +105,30 @@
 			image=graphics/mPlayer_repeat_active
 		}
 		
+		RepeatOnceButtonStyle
+		{
+			inset="0"
+			padding="0"
+			image=graphics/music_repeat_default
+			bgcolor=none
+			render_bg {}
+		}
+		
+		RepeatOnceButtonStyle:hover
+		{
+			image=graphics/mPlayer_repeat_once
+		}
+		
+		RepeatOnceButtonStyle:selected
+		{
+			image=graphics/mPlayer_repeat_once
+		}
+		
+		RepeatOnceButtonStyle:selected:hover
+		{
+			image=graphics/mPlayer_repeat_once
+		}
+		
 		ShuffleButtonStyle
 		{
 			image=graphics/mPlayer_shuffle

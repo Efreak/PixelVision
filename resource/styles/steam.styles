@@ -2223,6 +2223,14 @@ steam.styles
 			render_bg {}
 		}
 		
+		// -- User Logon Password Field Fix
+		// ================================
+		
+		"CSteamLoginDialog TextEntryLarge"
+		{
+			inset-top=0
+		}
+		
 		// -- Account Creation
 		// ===================
 		"CWelcomeToSteamDialog Page"

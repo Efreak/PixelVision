@@ -2,7 +2,20 @@ Pixel Vision Skin for Steam - ChangeLog
 ===========================
          •created by Pulseh
 
-                 v2014-0925
+                 v2014-1011 (Client Beta)
+
+
+
+-- v2014-1011 CLIENT BETA   (11th of October 2014)
+=========================
+
+  • Reimplemented the refresh button.
+
+  • Fixed the 'Repeat Once' button not displaying correctly.
+
+  • Fixed an alignment issue with the password field on the logon dialog.
+
+  • Moved the 'Parental Lock' button further to the left to avoid UI collisions.
 
 
 
